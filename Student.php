@@ -13,7 +13,7 @@
  */
 class Student {
     function __construct() {
-        $his->surname = '';
+        $this->surname = '';
         $this->first_name = '';
         $this->emails = array();
         $this->grades = array();
